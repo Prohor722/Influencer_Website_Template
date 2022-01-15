@@ -166,6 +166,9 @@ article:hover>.blog-image>img{
     margin-left: 89%;
     color: #E02C6D;
 }
+a{
+    text-decoration: none;
+}
 
 /* Bottom Section  */
 .payment{
@@ -223,4 +226,12 @@ footer>p{
 }
 .social-links>i{
     margin: 0 20px;
+}
+
+/* ---------------------------
+    Mobile Device Media Query
+    -------------------------- */
+
+@media only screen {
+        
 }
