@@ -8,6 +8,24 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 10%;
+    padding-bottom: 50px;
+}
+.brand-name>h4{
+    font-size: 24px;
+}
+.nav-items>ul{
+    display: flex;
+    list-style: none;
+}
+.nav-items>ul>li{
+    padding-right: 34px;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -29,6 +47,9 @@ h1{
     font-size: 40px;
     margin-bottom: 0;
 }
+.top-left{
+    padding-right: 20%;
+}
 .top-left>p{
     font-weight: 100;
     margin-top: 0;
@@ -48,21 +69,32 @@ h1{
     border: 5px solid #E02C6D;
     transition: 2s;
 }
+#camera-background{
+    position: absolute;
+    z-index: -1;
+}
 .top-right img{
     width: 400px;
 }
 /* --------------
     Brands Part 
     ------------- */
+#brands-top-space{
+    margin-top: 70px;
+}
 #brands{
     display: flex;
     justify-content: space-evenly;
     padding: 10px 0;
 }
+#brands>img{
+    width: 7%;
+}
 hr{
     width: 80%;
-    color: linear-gradient(90deg, #C0CCDA
-    0%, #C0CCDA, #C0CCDA 100%);
+    background-image: linear-gradient(0.25turn,#ffffff, #dfdfdf, #ffffff);
+    border: 0;
+    height: 1px;
 }
 h3{
     font-weight: 600;
@@ -73,15 +105,19 @@ h3{
 /* --------------
     Middle/Cards Section 
     ------------- */
+#popular_items{
+    width: 70%;
+}
 .articles{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding-bottom: 50px;
+    width: 100%;
 }
 article{
+    width: 250px;
     padding: 20px;
     margin: 10px;
-    width: 300px;
     border-radius: 5px;
     box-shadow: 0px 0px 20px #d3d3d3;
 }
@@ -90,6 +126,9 @@ article:hover{
 }
 .blog-image{
     overflow: hidden;
+}
+.blog-image>img{
+    width: 250px;
 }
 article:hover>.blog-image>img{
     transform: scale(1.3);
@@ -121,7 +160,7 @@ article:hover>.blog-image>img{
     color: #5E6366;
 }
 #see-more{
-    margin-left: 90%;
+    margin-left: 89%;
     color: #E02C6D;
 }
 
