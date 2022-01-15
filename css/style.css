@@ -26,6 +26,9 @@ nav{
 .nav-items>ul>li{
     padding-right: 34px;
 }
+.nav-items>ul>li:hover{
+    color: #E02C6D;
+}
 main{
     display: flex;
     flex-direction: column;
