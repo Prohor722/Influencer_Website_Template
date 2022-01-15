@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap');
+
+body{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    width: 80%;
+    padding-bottom: 30px;
+}
+/* --------------
+    Top Section 
+    ------------- */
+
+.container{
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.top-left>p{
+    font-weight: 100;
+    margin-top: 0;
+}
+.top-left>button{
+    width: 196px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 41px;
+    color: white;
+    font-weight: 800;
+}
+.top-right img{
+    width: 400px;
+}
+/* --------------
+    Brands Part 
+    ------------- */
+#brands{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+hr{
+    width: 80%;
+    color: linear-gradient(90deg, #C0CCDA
+    0%, #C0CCDA, #C0CCDA 100%);
+}
+h3{
+    font-weight: 600;
+    font-size: 28px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+/* --------------
+    Middle/Cards Section 
+    ------------- */
+.articles{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+article{
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #d3d3d3;
+}
+article:hover{
+    box-shadow: 0 0 20px #e02c6eab;
+}
+.blog-info{
+    display: flex;
+    flex-direction: column;
+}
+.blog-info>h3{
+    font-weight: 500;
+    padding: 0;
+    margin: 0%;
+}
+.blog-info>small{
+    font-size: 14px;
+    color: #787885;
+}
+.rating>i, #rate{
+    font-size: 14px;
+}
+.fill{
+    color: #FB8200;
+}
+.blank{
+    color: #787885;
+}
+#rate{
+    color: #5E6366;
+}
+
+/* Bottom Section  */
+.payment{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(185, 185, 185);
+}
+.payment>.top>h3{
+    padding: 0%;
+    margin: 0%;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+}
+.bottom>i{
+    font-size: 30px;
+    padding: 0 20px;
+    color: #E02C6D;
+}
+
+/* -------------
+    Footer Part
+----------------  */
+footer{
+    background-color: #0A0826;
+    height: 200px;
+}
+.social-links>i{
+    color: white;
+}
